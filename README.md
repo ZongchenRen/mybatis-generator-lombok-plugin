@@ -1,3 +1,12 @@
+# 在原有基础上稍加改造
+- 保留原有lombok插件
+- `增加注释插件`
+
+-----  
+
+分割线
+
+------
 # MyBatis Generator Lombok plugin
 
 A plugin for [MyBatis Generator](http://mybatis.github.io/generator/)
