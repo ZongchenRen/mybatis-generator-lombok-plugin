@@ -10,6 +10,7 @@ import org.mybatis.generator.api.dom.java.Field;
 import org.mybatis.generator.api.dom.java.InnerClass;
 import org.mybatis.generator.api.dom.java.Method;
 import org.mybatis.generator.api.dom.java.TopLevelClass;
+import org.mybatis.generator.api.dom.xml.XmlElement;
 import org.mybatis.generator.internal.DefaultCommentGenerator;
 
 /**
@@ -96,5 +97,9 @@ public class CommentGenerator extends DefaultCommentGenerator {
 
 	 @Override public void addConfigurationProperties(Properties properties) {
 		  super.addConfigurationProperties(properties);
+	 }
+
+	 @Override public void addComment(XmlElement xmlElement) {
+
 	 }
 }
